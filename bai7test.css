@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 20vh;
+    background-color: grey;
+}
+
+#body_container {
+    height: 60vh;
+    background-color: red;
+}
+
+footer{
+    height: 20vh;
+    background-color: #315C68;
+    display: flex;
+    justify-content: center;
+}
+
+.section_content{
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.top_section{
+    height: 50%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.right_art{
+    height: auto;
+    width: 40%;
+}
+
+.mid_art{
+    height: auto;
+    width: 35%;
+}
+.left_art{
+    height: auto;
+    width: 25%;
+}
+
+.mid_art > ul {
+    transform: translateX(70px);
+}
+.bot_section{
+    height: 50%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: start;
+}
+.icon_box {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.icon-fb {
+    background-color: #3298D9;
+}
+
+.icon-gl {
+    background-color: #E64C3E;
+}
+
+.icon-lk {
+    background-color: #2D3D54;
+}
+
+.icon-tw {
+    background-color: #3098DB;
+}
+
+
+.icon_social {
+    font-size: 25px;
+    color: white;
+}
+
+.social_box {
+    display: flex;
+    transform: translateX(50px);
+}
